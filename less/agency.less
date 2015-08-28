@@ -113,10 +113,10 @@ h1, h2, h3, h4, h5, h6 {
     			.heading-font;
     			font-weight: 400;
     			letter-spacing: 1px;
-    			color: @brand-primary;
+    			color: white;
     			&:hover,
     			&:focus {
-    				color: black; 
+    				color: @brand-primary;
     				outline: none;
     			}
     		}
@@ -124,12 +124,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 	.navbar-nav>.active>a {
 		border-radius: 0;
-		color: black;
+		color: white;
 		background-color: @brand-primary;
 	}
 	.navbar-nav>.active>a:hover,
 	.navbar-nav>.active>a:focus {
-		color: black;
+		color: white;
 		background-color: darken(@brand-primary, 10%);
 	}
 }
@@ -143,11 +143,7 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.3s;
         border: none;
 	    .navbar-brand {
-	        font-size: 3em;
-                //background-image: url('../img/logo-small.png');
-                background-repeat: no-repeat; 
-                padding-left: 10px;
-                //padding-left: 90px;
+	        font-size: 2em;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
@@ -172,7 +168,7 @@ header {
 	background-position: center center;
 	.background-cover;
 	text-align: center;
-	color: black;
+	color: white;
 	.intro-text {
 		padding-top: 100px;
 		padding-bottom: 50px;
@@ -196,7 +192,7 @@ header {
 @media(min-width:768px) {
 	header {
 		.intro-text {
-			padding-top: 200px;
+			padding-top: 300px;
 			padding-bottom: 200px;
 			.intro-lead-in {
 				.serif-font;
@@ -385,11 +381,6 @@ section {
             	margin-top: 12px;
             	line-height: 14px;
             }
-            h5 {
-            	font-size: 8px;
-            	margin-top: 12px;
-            	line-height: 14px;
-            }
         }
         &.timeline-inverted > .timeline-panel {
             float: right;
@@ -453,11 +444,6 @@ section {
 	            	margin-top: 16px;
 	            	line-height: 18px;
 	            }
-                    h5 {
-	            	font-size: 13px;
-	            	margin-top: 16px;
-	            	line-height: 18px;
-	            }
 	        }
 	        &.timeline-inverted > .timeline-panel {
 	            float: right;
@@ -480,11 +466,6 @@ section {
 	            height: 150px;
 	            margin-left: -75px;
 	            h4 {
-            		font-size: 18px;
-	            	margin-top: 30px;
-	            	line-height: 26px;
-	            }
-                    h5 {
             		font-size: 18px;
 	            	margin-top: 30px;
 	            	line-height: 26px;
